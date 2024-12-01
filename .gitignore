@@ -1,0 +1,40 @@
+# Ignore build artifacts
+_build/
+rebar3.crashdump
+
+# Ignore dependencies
+deps/
+_checkouts/
+
+# Ignore compiled files
+*.beam
+
+# Ignore editor-specific files
+.vscode/
+*.swp
+*~
+
+# Ignore macOS-specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore Thumbnails
+._*
+
+# Ignore files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Ignore potentially sensitive files
+*.key
+*.pem
+*.p12
+*.crt
+*.cer
+*.der
